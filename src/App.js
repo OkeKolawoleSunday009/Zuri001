@@ -14,13 +14,32 @@ function App() {
 
       
       <Headeer/>
-      <Section section_input="Twitter Link"/>
-      <Section section_input="Zuri Team"/>
-      <Section section_input="Zuri Books"/>
-      <Section section_input="Python Books"/>
-      <Section section_input="Background Check for Coders"/>
-      <Section section_input="Design Books"/>
-      <SectionIcon/>
+      <a href="https://twitter.com/OkekolawoleSun3">
+         <Section section_input="Twitter Link"/>
+      </a>
+      <a href="http://trainng.zuri.team">
+         <Section section_input="Zuri Team"/>
+      </a>
+      <a href="https://books.zuri.team">
+
+         <Section section_input="Zuri Books"/>
+      </a>
+      <a href="https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>/">
+
+        <Section section_input="Python Books"/>
+      </a>
+      <a href="https://background.zuri.team//">
+
+         <Section section_input="Background Check for Coders"/>
+       </a>
+      <a href="https://training.zuri.team/">
+
+         <Section section_input="Design Books"/>
+      </a>
+      <a href="https://books.zuri.team/design-rules">
+
+         <SectionIcon/>
+      </a>
       <Footer/>
       {/* <Section Icon={profile}/> */}
     </div>
